@@ -2,17 +2,23 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
     	id="be.fullcircle.discovery.discoveryplugin"
-    	version="1.0.0">
-    <engines>
-        <engine name="cordova" version="<3.0.0" />
-    </engines>
+    	version="0.0.1">
     <name>DiscoveryPlugin</name>
-    <description>Network broadcasting plugin to discover devices on network</description>
+
     <author>Mathieu Allaert - mathieu.allaert@opus-magnum.be</author>
+
+    <description>Network broadcasting plugin to discover devices on network</description>
+
     <license>MIT</license>
+
     <js-module src="www/discovery.js" name="discovery">
         <clobbers target="discovery" />
     </js-module>
+
+    <engines>
+        <engine name="cordova" version="&gt;=3.0.0" />
+    </engines>
+
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="DiscoveryPlugin" >
