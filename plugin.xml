@@ -29,7 +29,7 @@
 			<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 			<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
         </config-file>
-        <source-file src="src/android/DiscoveryPlugin.java" target-dir="src/be/fullcircle/discovery" />
-		<source-file src="src/android/Discoverer.java" target-dir="src/be/fullcircle/discovery" />
+        <source-file src="src/android/be/fullcircle/discovery/DiscoveryPlugin.java" target-dir="src/be/fullcircle/discovery" />
+		<source-file src="src/android/be/fullcircle/discovery/Discoverer.java" target-dir="src/be/fullcircle/discovery" />
     </platform>
 </plugin>
